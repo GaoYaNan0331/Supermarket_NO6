@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Supermarket_NO6</string>
+    <string name="home">首页</string>
+    <string name="shop">店铺</string>
+    <string name="cart">购物车</string>
+    <string name="my">我的</string>
 </resources>
