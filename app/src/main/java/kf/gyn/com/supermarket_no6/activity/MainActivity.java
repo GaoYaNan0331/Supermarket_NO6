@@ -17,7 +17,7 @@ import kf.gyn.com.supermarket_no6.widget.ImageTextView;
 
 public class MainActivity extends BaseActivity {
 
-
+//123JJH22
     @BindView(R.id.bottom_navigation_button_home)
     ImageTextView bottomNavigationButtonHome;
     @BindView(R.id.bottom_navigation_button_shop)
