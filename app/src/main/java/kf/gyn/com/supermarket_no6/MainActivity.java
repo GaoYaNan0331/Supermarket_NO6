@@ -12,5 +12,15 @@ public class MainActivity extends AppCompatActivity {
         //shizhuangzhuang
         //sdjflkdj
         //ssssssssss
+        initView();
+        initData();
+    }
+
+    private void initView() {
+
+    }
+
+    private void initData() {
+
     }
 }
