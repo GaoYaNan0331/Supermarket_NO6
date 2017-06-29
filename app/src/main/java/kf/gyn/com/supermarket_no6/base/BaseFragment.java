@@ -1,6 +1,7 @@
 package kf.gyn.com.supermarket_no6.base;
 
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -8,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 
 import butterknife.ButterKnife;
 
@@ -51,6 +53,15 @@ public abstract class BaseFragment extends Fragment {
             parent.removeView(mRootView);
         }
         d("---------onCreateView ");
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            // 透明状态栏
+            getActivity().getWindow().addFlags(
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            // 透明导航栏
+          /*  getWindow().addFlags(
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);*/
+        }
         return mRootView;
 
 
