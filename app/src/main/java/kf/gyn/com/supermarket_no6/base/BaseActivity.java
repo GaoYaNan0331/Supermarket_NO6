@@ -1,5 +1,6 @@
 package kf.gyn.com.supermarket_no6.base;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -7,6 +8,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Window;
+import android.view.WindowManager;
 
 import butterknife.ButterKnife;
 
@@ -39,6 +41,11 @@ public abstract class BaseActivity extends AppCompatActivity {
      * 更新视图控件
      */
     protected abstract void updateViews(boolean isRefresh);
+
+    /**
+     * 是否沉浸状态栏
+     **/
+    private boolean isSetStatusBar = true;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -99,6 +106,10 @@ public abstract class BaseActivity extends AppCompatActivity {
             getSupportFragmentManager().popBackStack(tag, 0);
             //Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
         }
+//调用沉静式
+        if (isSetStatusBar) {
+            steepStatusBar();
+        }
     }
 
     @Override
@@ -143,5 +154,26 @@ public abstract class BaseActivity extends AppCompatActivity {
         Log.d("BaseActivity---------", sign);
     }
 
+    /**
+     * [沉浸状态栏]
+     */
+    private void steepStatusBar() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            // 透明状态栏
+            getWindow().addFlags(
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            // 透明导航栏
+            getWindow().addFlags(
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+        }
+    }
 
+    /**
+     * [是否设置沉浸状态栏]
+     *
+     * @param isSetStatusBar
+     */
+    public void setSteepStatusBar(boolean isSetStatusBar) {
+        this.isSetStatusBar = isSetStatusBar;
+    }
 }
