@@ -5,11 +5,12 @@
               android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/my__btn_image"
+            android:id="@+id/my_btn_image"
             android:layout_width="match_parent"
             android:layout_height="330px"
             android:background="#f5f5c7"/>
         <Button
+            android:id="@+id/fragment_my_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/my_button_selector"
@@ -19,12 +20,12 @@
             android:layout_marginBottom="96px"
             android:layout_marginLeft="285px"
             />
-  <ListView
-      android:id="@+id/my_btn_list_item"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_below="@id/my__btn_image">
-  </ListView>
+ <ListView
+     android:id="@+id/fragment_list_view"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_below="@id/my_btn_image">
+ </ListView>
 
 </RelativeLayout>
 

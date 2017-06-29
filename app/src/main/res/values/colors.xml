@@ -3,7 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="rgb53_99">#3d97fc</color>
+    <color name="rgb53_99">#959595</color>
     <color name="textsize_my_btn">#ffffff</color>
     <color name="fragment_my_title">#f2f5f6</color>
+    <color name="colorHuiSe">#8F8F8F</color>
+    <color name="colorJuSe">#FF5400</color>
+    <color name="fragment_my_height">#f7f7f7</color>
+    <color name="loginphone">#cccccc</color>
+    <color name="xinregister">#e2eef8</color>
+
+
 </resources>
