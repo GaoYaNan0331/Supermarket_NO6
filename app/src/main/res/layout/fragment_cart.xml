@@ -1,12 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
+    <com.zhy.autolayout.AutoLinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="购物车" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:background="@color/colorDanHui">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:layout_marginLeft="312px"
+            android:layout_marginRight="312px"
+            android:layout_marginTop="32px"
+            android:text="@string/cart"
+            android:textColor="@color/colorHeiSe"
+            android:textSize="32px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reclerview_fragmentcar_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="12px"
+            android:button="@null"
+            android:paddingTop="8px"
+            android:text="@string/quanxuyan"
+            />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32px"
+                android:layout_marginLeft="26px"
+                android:layout_marginTop="32px"
+                android:text="@string/zongjia"
+                android:textColor="@color/colorHeiSe"
+                android:textSize="26px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32px"
+                android:text="￥22.574"
+                android:textColor="@color/colorShenHong"
+                android:textSize="26px"
+                />
+
+            <TextView
+                android:layout_width="270px"
+                android:layout_height="72px"
+                android:layout_marginBottom="11px"
+                android:layout_marginLeft="175px"
+                android:layout_marginRight="21px"
+                android:layout_marginTop="8px"
+                android:background="@drawable/button_cart_yuanjiao"
+                android:gravity="center"
+                android:text="@string/qujiesuan"
+                android:textColor="@color/colorJiesuanBaise"
+                android:textSize="26px"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

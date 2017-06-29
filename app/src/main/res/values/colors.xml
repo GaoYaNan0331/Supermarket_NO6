@@ -5,4 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorHuiSe">#8F8F8F</color>
     <color name="colorJuSe">#FF5400</color>
+    <color name="colorHeiSe">#2a2a2a</color>
+    <color name="colorDanHui">#F7F7F8</color>
+    <color name="colorShenHong">#bb0c0c</color>
+    <color name="colorButtonLanse">#556AFC</color>
+    <color name="colorJiesuanBaise">#FFFFFF</color>
 </resources>
