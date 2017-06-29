@@ -5,4 +5,7 @@
     <string name="shop">店铺</string>
     <string name="cart">购物车</string>
     <string name="my">我的</string>
+    <string name="quanxuyan">全选</string>
+    <string name="zongjia">总价:</string>
+    <string name="qujiesuan">去结算</string>
 </resources>
