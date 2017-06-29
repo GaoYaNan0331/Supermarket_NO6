@@ -64,7 +64,10 @@ public abstract class BaseActivity extends AppCompatActivity {
         initEvents();
         //视图变化方法
         updateViews(false);
-
+//调用沉静式
+        if (isSetStatusBar) {
+            steepStatusBar();
+        }
 
     }
 
@@ -106,10 +109,7 @@ public abstract class BaseActivity extends AppCompatActivity {
             getSupportFragmentManager().popBackStack(tag, 0);
             //Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
         }
-//调用沉静式
-        if (isSetStatusBar) {
-            steepStatusBar();
-        }
+
     }
 
     @Override
@@ -163,8 +163,8 @@ public abstract class BaseActivity extends AppCompatActivity {
             getWindow().addFlags(
                     WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             // 透明导航栏
-            getWindow().addFlags(
-                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+           /* getWindow().addFlags(
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);*/
         }
     }
 
