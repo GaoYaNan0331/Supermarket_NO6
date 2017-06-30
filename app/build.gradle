@@ -33,11 +33,9 @@ dependencies {
     apt 'com.jakewharton:butterknife-compiler:8.5.1'
     //屏幕适配autolayout
     compile 'com.zhy:autolayout:1.4.3'
-
+    //xbanner轮播yilai
     //recyclerview
     compile 'com.android.support:recyclerview-v7:25.2.0'
-
-
     //xbanner轮播
     compile 'com.xhb:xbanner:1.2.2'
     compile 'com.nineoldandroids:library:2.4.0'
