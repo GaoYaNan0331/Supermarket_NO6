@@ -27,4 +27,7 @@
     <string name="fragmentmyloginphone">请输入您的手机号</string>
     <string name="fragmentmyloginkey">请输入您的密码</string>
     <string name="fragmentmyatonce">立即登录</string>
+    <string name="quanxuyan">全选</string>
+    <string name="zongjia">总价:</string>
+    <string name="qujiesuan">去结算</string>
 </resources>

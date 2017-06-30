@@ -1,5 +1,7 @@
 package kf.gyn.com.supermarket_no6.activity;
 
+import android.os.Handler;
+import android.os.Message;
 import android.util.SparseArray;
 import android.view.View;
 import android.widget.Toast;
@@ -17,7 +19,6 @@ import kf.gyn.com.supermarket_no6.widget.ImageTextView;
 
 public class MainActivity extends BaseActivity {
 
-//123JJH22
     @BindView(R.id.bottom_navigation_button_home)
     ImageTextView bottomNavigationButtonHome;
     @BindView(R.id.bottom_navigation_button_shop)
@@ -120,6 +121,7 @@ public class MainActivity extends BaseActivity {
         } else {
             finish();
         }
+
     }
 
 

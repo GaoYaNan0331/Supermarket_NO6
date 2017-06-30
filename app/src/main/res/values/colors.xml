@@ -11,6 +11,9 @@
     <color name="fragment_my_height">#f7f7f7</color>
     <color name="loginphone">#cccccc</color>
     <color name="xinregister">#e2eef8</color>
-
-
-</resources>
+    <color name="colorHeiSe">#2a2a2a</color>
+    <color name="colorDanHui">#F7F7F8</color>
+    <color name="colorShenHong">#bb0c0c</color>
+    <color name="colorButtonLanse">#556AFC</color>
+    <color name="colorJiesuanBaise">#FFFFFF</color>
+</ resources >

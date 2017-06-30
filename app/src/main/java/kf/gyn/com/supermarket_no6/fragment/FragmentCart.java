@@ -9,7 +9,7 @@ import kf.gyn.com.supermarket_no6.base.BaseFragment;
  * @date:2017/6/28
  */
 
-public class FragmentCart extends BaseFragment{
+public class FragmentCart extends BaseFragment {
     @Override
     protected int attachLayoutRes() {
         return R.layout.fragment_cart;
