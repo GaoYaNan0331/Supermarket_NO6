@@ -34,7 +34,7 @@ dependencies {
     //屏幕适配autolayout
     compile 'com.zhy:autolayout:1.4.3'
 
-    //xbanner轮播
+    //xbanner轮播yilai
     compile 'com.xhb:xbanner:1.2.2'
     compile 'com.nineoldandroids:library:2.4.0'
 }
