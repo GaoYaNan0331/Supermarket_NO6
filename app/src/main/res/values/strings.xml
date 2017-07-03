@@ -27,7 +27,11 @@
     <string name="fragmentmyloginphone">请输入您的手机号</string>
     <string name="fragmentmyloginkey">请输入您的密码</string>
     <string name="fragmentmyatonce">立即登录</string>
+    <string name="fragmentmynewperson">新人注册</string>
     <string name="quanxuyan">全选</string>
     <string name="zongjia">总价:</string>
     <string name="qujiesuan">去结算</string>
+    <string name="fragmentmydsflogin">第三方登录</string>
+    <string name="fragment_my_login_qq">QQ登录</string>
+    <string name="fragment_my_login_wexin">微信登录</string>
 </resources>

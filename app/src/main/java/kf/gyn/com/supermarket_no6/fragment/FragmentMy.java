@@ -1,5 +1,6 @@
 package kf.gyn.com.supermarket_no6.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +19,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 import kf.gyn.com.supermarket_no6.R;
+import kf.gyn.com.supermarket_no6.activity.ShiMingRenActivity;
 import kf.gyn.com.supermarket_no6.base.BaseFragment;
 
 /**
@@ -87,6 +89,8 @@ public class FragmentMy extends BaseFragment {
             case R.id.my_btn_image:
                 break;
             case R.id.fragment_my_btn:
+                Intent intent=new Intent(getContext(),ShiMingRenActivity.class);
+                startActivity(intent);
                 break;
             case R.id.fragment_list_view:
 

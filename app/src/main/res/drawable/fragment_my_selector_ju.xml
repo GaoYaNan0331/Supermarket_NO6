@@ -7,11 +7,15 @@
     <stroke
     android:width="70dp"
     android:color="@color/rgb53_99" />
+    <size
+        android:width="680px"
+        android:height="70px"
+        ></size>
     <!-- 圆角的幅度 -->
-    <!--<corners-->
-    <!--android:topLeftRadius="5dip"-->
-    <!--android:topRightRadius="5dip"-->
-    <!--android:bottomLeftRadius="5dip"-->
-    <!--android:bottomRightRadius="5dip" />-->
+    <corners
+    android:topLeftRadius="5dip"
+    android:topRightRadius="5dip"
+    android:bottomLeftRadius="5dip"
+    android:bottomRightRadius="5dip" />
 
 </shape>
