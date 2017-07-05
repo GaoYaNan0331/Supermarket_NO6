@@ -7,4 +7,6 @@
     <string name="quanxuyan">全选</string>
     <string name="zongjia">总价:</string>
     <string name="qujiesuan">去结算</string>
+    <string name="shanchu">删除</string>
+    <string name="shoucang">收藏</string>
 </resources>
