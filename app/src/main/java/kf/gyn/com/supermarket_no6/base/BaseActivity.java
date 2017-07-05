@@ -64,7 +64,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         initEvents();
         //视图变化方法
         updateViews(false);
-//调用沉静式
+        //调用沉静式
         if (isSetStatusBar) {
             steepStatusBar();
         }

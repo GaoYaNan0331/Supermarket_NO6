@@ -13,7 +13,7 @@
         <!--android:topRightRadius="5dip"-->
         <!--android:bottomLeftRadius="5dip"-->
         <!--android:bottomRightRadius="5dip" />-->
-    <solid android:color="@color/black"
+    <solid android:color="@color/textsize_my_btn"
         />
     <corners android:radius="8dp" />
     <size android:width="680px"

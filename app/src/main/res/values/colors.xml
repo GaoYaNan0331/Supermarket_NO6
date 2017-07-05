@@ -16,4 +16,17 @@
     <color name="colorShenHong">#bb0c0c</color>
     <color name="colorButtonLanse">#556AFC</color>
     <color name="colorJiesuanBaise">#FFFFFF</color>
+    <color name="fragmentmydsflogin">#666666</color>
+    <color name="colorWhrite">#FFFFFF</color>
+    <color name="colorhui">#f4f4f5</color>
+    <color name="colorLine">#c9c7c7</color>
+    <color name="colorziti">#333333</color>
+    <color name="colorshuoming">#1D1D1D</color>
+    <color name="colorTishi">#999999</color>
+    <color name="vifrification">#00000000</color>   <!-- 透明 -->
+    <color name="black">#000000</color>
+    <color name="fragmentmylineleft">#e5e5e5</color>
+    <color name="fragementmyhqyzm">#e93a38</color>
+    <color name="fragmenthqyzmzt">#3d97fc</color>
+    <color name="fragment_my_beijing">#F7F7F7</color>
 </resources >
