@@ -34,4 +34,22 @@
     <string name="fragmentmydsflogin">第三方登录</string>
     <string name="fragment_my_login_qq">QQ登录</string>
     <string name="fragment_my_login_wexin">微信登录</string>
+    <string name="write_infos">填写个人资料</string>
+    <string name="tename">真实姓名</string>
+    <string name="telianxiphone">联系电话</string>
+    <string name="teshenfenhao">身份证号</string>
+    <string name="fragmentmyatonceregister">立即注册</string>
+    <string name="phonelogin">手机号登录</string>
+    <string name="fragmentmyatfinish">完成</string>
+    <string name="wanshanphone">完善手机号</string>
+    <string name="updatepsw">修改密码</string>
+    <string name="updatesure">确定</string>
+    <string name="updatephone">修改手机号</string>
+    <string name="fragmentmygetadress">收获地址</string>
+    <string name="fragment_my_get_address_name">张三</string>
+    <string name="fragment_my_get_address_phone">15330296912</string>
+    <string name="fragment_my_get_address">北京市顺义区天竺路空港科技大厦A座</string>
+    <string name="fragment_my_address_moren">设置默认地址</string>
+    <string name="fragment_my_address_bianji">编辑</string>
+    <string name="fragment_my_address_delete">删除</string>
 </resources>
