@@ -16,7 +16,7 @@ import kf.gyn.com.supermarket_no6.activity.MainActivity;
 import kf.gyn.com.supermarket_no6.base.BaseFragment;
 
 /**
- * @类的用途:
+ * @类的用途:购物车
  * @author:shizhuangzhaung
  * @date:2017/6/28
  */
