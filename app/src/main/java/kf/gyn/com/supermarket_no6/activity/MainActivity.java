@@ -1,5 +1,7 @@
 package kf.gyn.com.supermarket_no6.activity;
 
+import android.os.Handler;
+import android.os.Message;
 import android.util.SparseArray;
 import android.view.View;
 import android.widget.Toast;
@@ -119,6 +121,7 @@ public class MainActivity extends BaseActivity {
         } else {
             finish();
         }
+
     }
 
 
