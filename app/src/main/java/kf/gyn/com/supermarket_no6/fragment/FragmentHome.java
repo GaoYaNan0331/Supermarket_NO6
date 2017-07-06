@@ -28,6 +28,7 @@ import kf.gyn.com.supermarket_no6.widget.ImageTextGoup;
  */
 
 public class FragmentHome extends BaseFragment {
+    //jjh
     @BindView(R.id.banner)
     BGABanner banner;
     Unbinder unbinder;
