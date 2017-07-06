@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <!--<solid-->
+        <!--android:color="#ffffff" />-->
+    <!--&lt;!&ndash; 边缘线条颜色 &ndash;&gt;-->
+    <!--<stroke-->
+        <!--android:width="1dp"-->
+        <!--android:color="@color/rgb53_99" />-->
+    <!--&lt;!&ndash; 圆角的幅度 &ndash;&gt;-->
+    <!--<corners-->
+        <!--android:topLeftRadius="5dip"-->
+        <!--android:topRightRadius="5dip"-->
+        <!--android:bottomLeftRadius="5dip"-->
+        <!--android:bottomRightRadius="5dip" />-->
+    <solid android:color="@color/textsize_my_btn"
+        />
+    <corners android:radius="8dp" />
+    <size android:width="680px"
+        android:height="70px">
+    </size>
+    <!--<gradient-->
+            <!--android:angle="45"-->
+            <!--android:endColor="#6965f0"-->
+            <!--android:centerColor="#5878f5"-->
+          <!--android:startColor="#4192fb" />-->
+</shape>
