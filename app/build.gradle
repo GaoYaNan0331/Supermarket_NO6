@@ -36,7 +36,6 @@ dependencies {
     compile 'com.xhb:xbanner:1.2.2'
     compile 'com.nineoldandroids:library:2.4.0'
     apt 'com.jakewharton:butterknife-compiler:8.5.1'
-    compile project(':crop')
     compile 'liji.library.dev:takephotolib:1.0.2'
     compile 'com.jakewharton:butterknife:8.5.1'
     compile 'com.zhy:autolayout:1.4.3'
