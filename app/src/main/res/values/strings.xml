@@ -31,6 +31,8 @@
     <string name="quanxuyan">全选</string>
     <string name="zongjia">总价:</string>
     <string name="qujiesuan">去结算</string>
+    <string name="shanchu">删除</string>
+    <string name="shoucang">收藏</string>
     <string name="fragmentmydsflogin">第三方登录</string>
     <string name="fragment_my_login_qq">QQ登录</string>
     <string name="fragment_my_login_wexin">微信登录</string>
