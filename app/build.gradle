@@ -25,36 +25,26 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    //黄油刀插件
-    //屏幕适配autolayout
-    //xbanner轮播yilai
-    //recyclerview
-    //xbanner轮播
-    compile 'com.jakewharton:butterknife:8.5.1'
-    compile 'com.zhy:autolayout:1.4.3'
-    compile 'com.android.support:recyclerview-v7:25.2.0'
-    compile 'com.xhb:xbanner:1.2.2'
-    compile 'com.nineoldandroids:library:2.4.0'
-    apt 'com.jakewharton:butterknife-compiler:8.5.1'
-    compile project(':crop')
-    compile 'liji.library.dev:takephotolib:1.0.2'
-    compile 'com.jakewharton:butterknife:8.5.1'
-    compile 'com.zhy:autolayout:1.4.3'
-    compile 'com.android.support:recyclerview-v7:25.2.0'
 
-    //xbanner轮播yilai
+    testCompile 'junit:junit:4.12'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'liji.library.dev:takephotolib:1.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //屏幕适配的依赖
+    compile 'com.zhy:autolayout:1.4.3'
+    //黄油刀
+    compile 'com.jakewharton:butterknife:8.5.1'
+    apt 'com.jakewharton:butterknife-compiler:8.5.1'
     //recyclerview
     compile 'com.android.support:recyclerview-v7:25.2.0'
     //xbanner轮播
     compile 'com.xhb:xbanner:1.2.2'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
-    apt 'com.jakewharton:butterknife-compiler:8.5.1'
+    //retrofit2、rxjava2
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
     compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'io.reactivex.rxjava2:rxjava:2.0.1'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //拦截器
     compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
 }
