@@ -18,30 +18,30 @@ import kf.gyn.com.supermarket_no6.R;
  * @date:2017/6/28
  */
 
-public class ImageTextView extends LinearLayout {
+public class ImageTextViewTwo extends LinearLayout {
 
     private ImageView imageView;
     private TextView textView;
 
-    public ImageTextView(Context context) {
+    public ImageTextViewTwo(Context context) {
         super(context);
 
     }
 
-    public ImageTextView(Context context, @Nullable AttributeSet attrs) {
+    public ImageTextViewTwo(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         initView(attrs);
 
     }
 
-    public ImageTextView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ImageTextViewTwo(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView(attrs);
     }
 
     private void initView(AttributeSet attrs) {
 
-        View view = inflate(getContext(), R.layout.custom_text, this);
+        View view = inflate(getContext(), R.layout.custom_text_two, this);
 
         //获取属性
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.ImageTextView);
@@ -61,6 +61,8 @@ public class ImageTextView extends LinearLayout {
         textView.setText(text + "");
 
         textView.setTextColor(getResources().getColorStateList(textColor));
+
+
 
         //利用
         typedArray.recycle();

@@ -35,7 +35,7 @@ dependencies {
     compile 'com.zhy:autolayout:1.4.3'
     //BGABanner轮播yilai
     //recyclerview
-    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'cn.bingoogolapple:bga-banner:2.0.9@aar'
     compile 'com.github.bumptech.glide:glide:3.5.2'
@@ -49,4 +49,9 @@ dependencies {
     compile 'io.reactivex.rxjava2:rxjava:2.0.1'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+
+
+
+    compile 'cn.bingoogolapple:bga-banner:2.0.9@aar'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
 }

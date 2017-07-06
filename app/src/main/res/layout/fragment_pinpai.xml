@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/shop_sousuo_button"
+        android:layout_width="540px"
+        android:layout_height="56px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/shape_search_box"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="22px"
+            android:layout_height="22px"
+            android:background="@drawable/icon_sousuo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:text="@string/souSuoKuangZiTi"
+            android:textColor="#666666"
+            android:textSize="22px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/shop_heZuo"
+        android:layout_width="120px"
+        android:layout_height="56px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/shape_collaboration_box"
+        android:gravity="center"
+        android:text="@string/HeZuoZiTi"
+        android:textSize="22px" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/shop_ll_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_sousuo_button"
+        android:layout_marginTop="36px"
+        android:orientation="horizontal">
+
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextViewTwo
+
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="46px"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image="@drawable/icon_shangjiano1"
+            app:text="酒"
+            app:textColor="@color/text_color" />
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextViewTwo
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image="@drawable/icon_shangjiano1"
+            app:text="酒"
+            app:textColor="@color/text_color" />
+
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextViewTwo
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image="@drawable/icon_shangjiano1"
+            app:text="酒"
+            app:textColor="@color/text_color" />
+
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextViewTwo
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image="@drawable/icon_shangjiano1"
+            app:text="酒"
+            app:textColor="@color/text_color" />
+
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextViewTwo
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image="@drawable/icon_shangjiano1"
+            app:text="酒"
+            app:textColor="@color/text_color" />
+
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextViewTwo
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="46px"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image="@drawable/icon_shangjiano1"
+            app:text="酒"
+            app:textColor="@color/text_color" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shop_rceycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shop_ll_a"
+        android:layout_marginTop="24px">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

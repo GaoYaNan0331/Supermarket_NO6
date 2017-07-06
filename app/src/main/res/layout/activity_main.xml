@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipChildren="false"
     tools:context="kf.gyn.com.supermarket_no6.activity.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/auto_ll"
+        android:background="#c1c0c0" />
 
     <com.zhy.autolayout.AutoFrameLayout
         android:id="@+id/auto_frameLayout"
@@ -20,53 +26,67 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="14px"
-        android:orientation="horizontal">
+        android:clipChildren="false"
+        android:orientation="vertical">
 
-        <kf.gyn.com.supermarket_no6.widget.ImageTextView
-            android:id="@+id/bottom_navigation_button_home"
-            android:layout_width="0px"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14px"
-            android:layout_weight="1"
+        <RadioGroup
+            android:id="@+id/bottom_navigation_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="96px"
+            android:clipChildren="false"
             android:gravity="center"
-            app:image="@drawable/bottom_navigation_home"
-            app:text="@string/home"
-            app:textColor="@color/bottom_navigation_text" />
+            android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="2px"
+                android:layout_weight="1" />
 
-        <kf.gyn.com.supermarket_no6.widget.ImageTextView
-            android:id="@+id/bottom_navigation_button_shop"
-            android:layout_width="0px"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14px"
-            android:layout_weight="1"
-            android:gravity="center"
-            app:image="@drawable/bottom_navigation_shop"
-            app:text="@string/shop"
-            app:textColor="@color/bottom_navigation_text" />
+            <RadioButton
+                android:id="@+id/bottom_navigation_button_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/bottom_navigation_home" />
 
-        <kf.gyn.com.supermarket_no6.widget.ImageTextView
-            android:id="@+id/bottom_navigation_button_cart"
-            android:layout_width="0px"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14px"
-            android:layout_weight="1"
-            android:gravity="center"
-            app:image="@drawable/bottom_navigation_cart"
-            app:text="@string/cart"
-            app:textColor="@color/bottom_navigation_text" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="2px"
+                android:layout_weight="2" />
 
-        <kf.gyn.com.supermarket_no6.widget.ImageTextView
-            android:id="@+id/bottom_navigation_button_my"
-            android:layout_width="0px"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14px"
-            android:layout_weight="1"
-            android:gravity="center"
-            app:image="@drawable/bottom_navigation_my"
-            app:text="@string/my"
-            app:textColor="@color/bottom_navigation_text" />
+            <RadioButton
+                android:id="@+id/bottom_navigation_button_pinpai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/bottom_navigation_pinpai" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="2px"
+                android:layout_weight="2" />
+
+            <RadioButton
+                android:id="@+id/bottom_navigation_button_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/bottom_navigation_shop" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="2px"
+                android:layout_weight="2" />
+
+            <RadioButton
+                android:id="@+id/bottom_navigation_button_my"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/bottom_navigation_my" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="2px"
+                android:layout_weight="1" />
+        </RadioGroup>
+
 
     </com.zhy.autolayout.AutoLinearLayout>
 
