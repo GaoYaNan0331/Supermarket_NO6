@@ -12,7 +12,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import kf.gyn.com.supermarket_no6.R;
-import kf.gyn.com.supermarket_no6.activity.MainActivity;
 import kf.gyn.com.supermarket_no6.base.BaseFragment;
 
 /**
