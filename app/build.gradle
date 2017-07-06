@@ -21,7 +21,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -34,8 +34,19 @@ dependencies {
     //屏幕适配autolayout
     compile 'com.zhy:autolayout:1.4.3'
     //BGABanner轮播yilai
+    //recyclerview
+    compile 'com.android.support:recyclerview-v7:25.2.0'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'cn.bingoogolapple:bga-banner:2.0.9@aar'
     compile 'com.github.bumptech.glide:glide:3.5.2'
 
+    compile 'liji.library.dev:takephotolib:1.0.2'
+    apt 'com.jakewharton:butterknife-compiler:8.5.1'
+    //retrofit2、rxjava2的依赖
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
 }

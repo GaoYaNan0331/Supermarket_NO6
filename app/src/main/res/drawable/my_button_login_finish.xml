@@ -15,7 +15,7 @@
         <!--android:bottomRightRadius="5dip" />-->
     <solid android:color="@color/black"
         />
-    <corners android:radius="8dp" />
+    <corners android:radius="14dp" />
     <size android:width="680px"
         android:height="70px">
     </size>
