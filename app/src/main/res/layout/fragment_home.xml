@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.zhy.autolayout.AutoLinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <com.stx.xhb.xbanner.XBanner
+    <cn.bingoogolapple.bgabanner.BGABanner
         android:id="@+id/banner"
         android:layout_width="match_parent"
-        android:layout_height="296px"
-        app:AutoPlayTime="3000"
-        app:pointNormal="@drawable/home_banner_point_normal"
-        app:pointSelect="@drawable/home_banner_point_select"
-        app:pointsPosition="CENTER"
-        app:pointContainerLeftRightPadding="16px"
-         />
+        android:layout_height="400px"
+        app:banner_indicatorGravity="bottom|right"
+        app:banner_pointAutoPlayAble="true"
+        app:banner_pointAutoPlayInterval="3000"
+        app:banner_pointContainerBackground="@android:color/transparent"
+        app:banner_pointContainerLeftRightPadding="14px"
+        app:banner_pointDrawable="@drawable/home_banner_point"
+        app:banner_pointLeftRightMargin="26px"
+        app:banner_pointTopBottomMargin="20px" />
+
     <com.zhy.autolayout.AutoLinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="180px">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextGoup
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="54px"
+            android:id="@+id/home_shangcheng_zuhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:home_image="@drawable/shangcheng"
+            app:home_text="商城"
+
+            ></kf.gyn.com.supermarket_no6.widget.ImageTextGoup>
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextGoup
+            android:layout_marginLeft="88px"
+            android:layout_marginTop="54px"
+            android:id="@+id/home_nfc_zuhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:home_image="@drawable/nfc2"
+            app:home_text="NFC查询"></kf.gyn.com.supermarket_no6.widget.ImageTextGoup>
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextGoup
+            android:layout_marginLeft="88px"
+            android:layout_marginTop="54px"
+            android:id="@+id/home_erweima_zuhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:home_image="@drawable/erweima"
+            app:home_text="二维码查询"></kf.gyn.com.supermarket_no6.widget.ImageTextGoup>
+
+        <kf.gyn.com.supermarket_no6.widget.ImageTextGoup
+            android:layout_marginTop="54px"
+            android:layout_marginLeft="80px"
+            android:id="@+id/home_lishi_zuhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:home_image="@drawable/lishi"
+            app:home_text="查询历史"></kf.gyn.com.supermarket_no6.widget.ImageTextGoup>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_marginTop="70px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="8px"
+            android:src="@drawable/jingxuan"
+            android:layout_marginLeft="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/home_jingxuanhaohuo"
+            android:text="精选好货"
+            android:textColor="#2a2a2a"
+            android:layout_marginLeft="16px"
+            android:textSize="26px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </com.zhy.autolayout.AutoLinearLayout>
 
